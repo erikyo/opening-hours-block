@@ -1,0 +1,163 @@
+# Copyright (C) 2025 opening-hours-block
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: opening-hours-block 1.0.0\n"
+"Report-Msgid-Bugs-To: Erik Golinelli - Codekraft <EMAIL>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"POT-Creation-Date: 2025-05-01T07:59:10.004Z\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Erik Golinelli - Codekraft <EMAIL>\n"
+"Language-Team: Erik Golinelli - Codekraft <EMAIL>\n"
+"X-Generator: @wp-blocks/make-pot 1.4.0\n"
+"Language: en\n"
+"domain: X-Domain: opening-hours-block\n"
+
+#: opening-hours-block.php
+#. Name of the plugin
+msgid "Opening Hours Block"
+msgstr ""
+
+#: opening-hours-block.php
+#. Url of the plugin
+msgid ""
+msgstr ""
+
+#: opening-hours-block.php
+#. Description of the plugin
+msgid "A Gutenberg block to set and display business opening hours."
+msgstr ""
+
+#: opening-hours-block.php
+#. Author of the plugin
+msgid "Erik Golinelli - Codekraft"
+msgstr ""
+
+#: opening-hours-block.php
+#. Author URI of the plugin
+msgid "https://codekraft.it"
+msgstr ""
+
+#: src/utils.ts:146
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/utils.ts:154
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+# we are open for %1$s hours, %2$s and %3$s minutes
+#: src/utils.ts:163
+msgid "We are open for another %1$s %2$s %3$s"
+msgstr ""
+
+#: src/utils.ts:169
+msgid "and"
+msgstr ""
+
+#: src/edit.tsx:88
+msgid "Settings"
+msgstr ""
+
+#: src/edit.tsx:92
+msgid "View Mode"
+msgstr ""
+
+#: src/edit.tsx:105
+msgid "Default Times"
+msgstr ""
+
+#: src/edit.tsx:109
+msgid "These values are used when a time field is empty."
+msgstr ""
+
+#: src/edit.tsx:116
+msgid "Morning Open"
+msgstr ""
+
+#: src/edit.tsx:126
+msgid "Morning Close"
+msgstr ""
+
+#: src/edit.tsx:137
+msgid "Afternoon Open"
+msgstr ""
+
+#: src/edit.tsx:147
+msgid "Afternoon Close"
+msgstr ""
+
+#: src/edit.tsx:160
+msgid "Opening Hours"
+msgstr ""
+
+#: src/edit.tsx:166
+msgid "Day"
+msgstr ""
+
+#: src/constants.ts:4
+msgid "Monday"
+msgstr ""
+
+#: src/constants.ts:5
+msgid "Tuesday"
+msgstr ""
+
+#: src/constants.ts:6
+msgid "Wednesday"
+msgstr ""
+
+#: src/constants.ts:7
+msgid "Thursday"
+msgstr ""
+
+#: src/constants.ts:8
+msgid "Friday"
+msgstr ""
+
+#: src/constants.ts:9
+msgid "Saturday"
+msgstr ""
+
+#: src/constants.ts:10
+msgid "Sunday"
+msgstr ""
+
+#: src/components/timeInput.tsx:30
+msgid "Select time"
+msgstr ""
+
+#: src/components/tableRow.tsx:29
+#: src/components/tableRow.tsx:49
+msgid "Closed"
+msgstr ""
+
+#: src/components/openingDay.tsx:27
+msgid "Now open"
+msgstr ""
+
+#: src/components/openingDay.tsx:29
+msgid "today's hours"
+msgstr ""
+
+#: src/components/openingDay.tsx:82
+msgid "Sorry, we are closed at the moment."
+msgstr ""
+
+# /**
+# 								 * Translators: %1$s - day name, %2$s - time, %3$s - delay string (We'll open on Monday (at 9:00 in 18 Hours))
+# 								 */
+#: src/components/openingDay.tsx:92
+msgid "We'll open on %1$s at %2$s (in %3$s)"
+msgstr ""
+
+#: src/components/openingDay.tsx:106
+msgid "No upcoming openings."
+msgstr ""

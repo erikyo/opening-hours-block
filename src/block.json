@@ -1,0 +1,62 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "0.1.0",
+	"name": "wp-blocks/opening-hours-block",
+	"title": "Opening Hours",
+	"icon": "clock",
+	"category": "widgets",
+	"description": "Display opening hours for your business.",
+	"keywords": [
+		"opening hours",
+		"closing time",
+		"schedule",
+		"working day"
+	],
+	"supports": {
+		"html": false,
+		"color": {
+			"text": true,
+			"gradients": true,
+			"link": true,
+			"background": true
+		},
+		"border": true,
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"fontStyle": true,
+			"fontWeight": true
+		},
+		"align": true
+	},
+	"attributes": {
+		"hours": {
+			"type": "array",
+			"default": []
+		},
+		"view": {
+			"type": "string",
+			"default": "week"
+		},
+		"defaults": {
+			"type": "object",
+			"required": false,
+			"default": {
+				"morningOpen": "09:00",
+				"morningClose": "13:00",
+				"afternoonOpen": "14:00",
+				"afternoonClose": "18:00"
+			}
+		}
+	},
+	"textdomain": "opening-hours-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"viewScript": "file:./frontend.js"
+}

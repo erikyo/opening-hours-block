@@ -1,0 +1,56 @@
+.opening-hours-table {
+	width: 100%;
+
+	&-wrapper {
+		overflow-x: auto;
+	}
+
+	.time-input-cell {
+		gap: .5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.oh-row {
+		padding-bottom: .5rem;
+		margin-bottom: .5rem;
+		border-bottom: 1px solid #ddd;
+
+		&.oh-closed {
+			input {
+				background-color: #ccc;
+			}
+		}
+
+		td {
+			min-width: 100px;
+		}
+	}
+
+}
+
+.opening-hours__container {
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.opening-hours__hours-container {
+		display: flex;
+		gap: 1rem;
+		min-width: 240px;
+	}
+
+	.opening-hours__row-active,
+	.opening-hours__row-now,
+	.opening-hours__day.opening-hours__day--today {
+		color: var(--wp--preset--color--primary, #3858e9);
+	}
+}
+
+.cell-align-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
