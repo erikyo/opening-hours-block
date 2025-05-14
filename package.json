@@ -1,6 +1,6 @@
 {
 	"name": "opening-hours-block",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"author": "Erik Golinelli",
 	"license": "GPL-2.0-or-later",
 	"files": [
@@ -15,8 +15,8 @@
 		"packages-update": "wp-scripts packages-update",
 		"build": "npm run build:scripts && npm run build:makepot",
 		"build:scripts": "wp-scripts build",
-		"build:makepot": "npx @wp-blocks/make-pot --include='inc/**/*'",
-		"build:makejson": "npx makejson languages --scriptName=\"build/index.js\"",
+		"build:makepot": "npx makepot",
+		"build:makejson": "npx makejson",
 		"build:makejson-frontend": "npx makejson languages --scriptName=\"build/frontend.js\"",
 		"start": "wp-scripts start",
 		"format": "wp-scripts format ./src",
@@ -43,7 +43,7 @@
 		"@wordpress/icons": "^10.21.0",
 		"@wordpress/prettier-config": "^4.20.0",
 		"@wordpress/scripts": "^30.15.0",
-		"@wp-blocks/make-pot": "^1.3.2",
+		"@wp-blocks/make-pot": "^1.5.0",
 		"typescript": "^5.8.2"
 	},
 	"browserslist": [

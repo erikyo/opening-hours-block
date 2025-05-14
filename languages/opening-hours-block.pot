@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: opening-hours-block 1.0.0\n"
-"Report-Msgid-Bugs-To: Erik Golinelli - Codekraft <EMAIL>\n"
+"Report-Msgid-Bugs-To: Erik Golinelli - Codekraft <erik@codekraft.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"POT-Creation-Date: 2025-05-01T07:59:10.004Z\n"
+"POT-Creation-Date: 2025-05-14T15:22:02.447Z\n"
 "PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Erik Golinelli - Codekraft <EMAIL>\n"
-"Language-Team: Erik Golinelli - Codekraft <EMAIL>\n"
-"X-Generator: @wp-blocks/make-pot 1.4.0\n"
+"Last-Translator: Erik Golinelli - Codekraft <erik@codekraft.it>\n"
+"Language-Team: Erik Golinelli - Codekraft <erik@codekraft.it>\n"
+"X-Generator: @wp-blocks/make-pot 1.5.0\n"
 "Language: en\n"
-"domain: X-Domain: opening-hours-block\n"
+"X-Domain: opening-hours-block\n"
 
 #: opening-hours-block.php
 #. Name of the plugin
@@ -58,7 +58,7 @@ msgstr[1] ""
 msgid "We are open for another %1$s %2$s %3$s"
 msgstr ""
 
-#: src/utils.ts:169
+#: src/utils.ts:171
 msgid "and"
 msgstr ""
 

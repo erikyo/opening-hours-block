@@ -18,18 +18,20 @@ add_action('init', function () {
  * Registers the block and scripts.
  */
 function opening_hours_block_register() {
-	$editor_asset = include OH_PATH . 'build/index.asset.php';
-
-
 	// Register block editor script
-	wp_register_script( 'opening-hours-block-editor', OH_URL .  'build/index.js', $editor_asset['dependencies'], $editor_asset['version'] );
-	wp_enqueue_style( 'opening-hours-block-editor', OH_URL .  'build/style-index.css' );
+	if (is_admin()) {
+		$editor_asset = include OH_PATH . 'build/index.asset.php';
+		wp_register_script( 'opening-hours-block-editor', OH_URL .  'build/index.js', $editor_asset['dependencies'], $editor_asset['version'] );
+		wp_set_script_translations( 'opening-hours-block-editor', 'opening-hours-block', OH_PATH  . 'languages' );
+	}
 
+	// Register block frontend script
 	$frontend_asset = include OH_PATH . 'build/frontend.asset.php';
-
 	wp_register_script( 'opening-hours-block-frontend', OH_URL . 'build/frontend.js', $frontend_asset['dependencies'], $frontend_asset['version'] );
-
 	wp_set_script_translations( 'opening-hours-block-frontend', 'opening-hours-block', OH_PATH  . 'languages' );
+
+	// Register block editor styles
+	wp_enqueue_style( 'opening-hours-block-editor', OH_URL .  'build/style-index.css' );
 }
 
 add_action( 'init', 'opening_hours_block_register' );
