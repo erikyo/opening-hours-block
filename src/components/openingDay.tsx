@@ -86,9 +86,7 @@ export function OpeningDay( {
 						</p>
 						<p className={ 'opening-hours__row-item' }>
 							{ sprintf(
-								/**
-								 * Translators: %1$s - day name, %2$s - time, %3$s - delay string (We'll open on Monday (at 9:00 in 18 Hours))
-								 */
+								/** Translators: %1$s - day name, %2$s - time, %3$s - delay string (We'll open on Monday (at 9:00 in 18 Hours)) */
 								__(
 									"We'll open on %1$s at %2$s (in %3$s)",
 									'opening-hours-block'

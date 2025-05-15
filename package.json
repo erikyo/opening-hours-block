@@ -17,7 +17,6 @@
 		"build:scripts": "wp-scripts build",
 		"build:makepot": "npx makepot",
 		"build:makejson": "npx makejson",
-		"build:makejson-frontend": "npx makejson languages --scriptName=\"build/frontend.js\"",
 		"start": "wp-scripts start",
 		"format": "wp-scripts format ./src",
 		"lint:css": "wp-scripts lint-style",
@@ -43,7 +42,6 @@
 		"@wordpress/icons": "^10.21.0",
 		"@wordpress/prettier-config": "^4.20.0",
 		"@wordpress/scripts": "^30.15.0",
-		"@wp-blocks/make-pot": "^1.5.0",
 		"typescript": "^5.8.2"
 	},
 	"browserslist": [
