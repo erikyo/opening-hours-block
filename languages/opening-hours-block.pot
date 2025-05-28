@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"POT-Creation-Date: 2025-05-15T00:20:07.438Z\n"
+"POT-Creation-Date: 2025-05-17T16:02:35.602Z\n"
 "PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Erik Golinelli - Codekraft <erik@codekraft.it>\n"
 "Language-Team: Erik Golinelli - Codekraft <erik@codekraft.it>\n"
@@ -95,6 +95,8 @@ msgid "Afternoon Close"
 msgstr ""
 
 #: src/edit.tsx:160
+#: block.json
+#. block title
 msgid "Opening Hours"
 msgstr ""
 
@@ -131,18 +133,28 @@ msgid "Sunday"
 msgstr ""
 
 #: block.json
-#. title
-msgid "title"
+#. block description
+msgid "Display opening hours for your business."
 msgstr ""
 
 #: block.json
-#. description
-msgid "description"
+#. block keyword
+msgid "opening hours"
 msgstr ""
 
 #: block.json
-#. keywords
-msgid "keywords"
+#. block keyword
+msgid "closing time"
+msgstr ""
+
+#: block.json
+#. block keyword
+msgid "schedule"
+msgstr ""
+
+#: block.json
+#. block keyword
+msgid "working day"
 msgstr ""
 
 #: src/components/timeInput.tsx:30
